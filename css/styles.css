@@ -1,0 +1,148 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* Index */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+header img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    font-size: 20px;
+}
+
+footer div {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    column-gap: 20px;
+}
+
+footer div img {
+    width: 30px;
+}
+
+.contenedor-index {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 1rem 3rem 3rem 3rem;
+    gap: 1rem;
+}
+
+.contenedor-index div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*Nosotros*/
+
+.imagen-nosotros {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border: 0;
+    
+}
+
+.texto-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/*Productos*/
+section h1 {
+    text-align: center;
+}
+.main-productos section {
+    gap: 20px;
+    margin-top: 30px;
+    border: 0;
+}
+
+main-productos section{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-productos section .card .card-body {
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    }
+
+.btn {
+    background-color: aquamarine;
+    color: darkblue;
+    border: 2px solid transparent;
+}
+
+
+/*Promociones*/
+
+.texto-promociones {
+    padding: 10px;
+}
+
+/*Contacto*/
+
+main h1 {
+    text-align: center;
+}
+
+.formulario-contacto {
+    text-align: center;
+    align-items: center;
+}
+
+.texto-contacto {
+    font-size: 30px;
+}
+
+
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+    
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    section div img {
+        width: 80vw;
+    }
+
+    /* Nosotros*/
+    
+}
