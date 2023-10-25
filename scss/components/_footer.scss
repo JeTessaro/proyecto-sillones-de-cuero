@@ -1,0 +1,10 @@
+/* Footer */
+footer div {
+  @extend %extend-footer;
+    img{
+    width: 30px;
+    transform: scale(1.2);
+  }
+}
+
+

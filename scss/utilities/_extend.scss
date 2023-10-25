@@ -1,0 +1,8 @@
+%extend-footer{
+    background-color: $color-hedear-footer-btn;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    column-gap: 20px;
+}

@@ -1,0 +1,26 @@
+/* Hedear */
+header{
+    @include flex(column, center, space-between, 10px);
+    padding: 10px;
+    background-color: $color-hedear-footer-btn; 
+
+    img {
+        
+        width: 150px;
+    }
+
+    nav{
+        ul{
+            list-style: none;
+            text-decoration: none;
+        }
+        li{
+            a{
+                font-size: 20px;
+                color: nth($list: $colors-nav, $n: 1);
+            }
+            
+        }
+    }
+}
+
