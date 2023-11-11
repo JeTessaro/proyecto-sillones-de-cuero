@@ -1,14 +1,79 @@
 @media screen and (min-width: 768px) {
-    header {
-        flex-direction: row;
+ /*Header*/
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10px;
+    img {
+      width: 150px;
     }
-    
-    header nav ul {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-    }
-    section div img {
-        width: 80vw;
-    }
+  }
+  header nav ul li {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 0% 10px;
+  }
+/*Carousel Index*/
+.slide {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.d-block {
+  width: 100%;
+  display: flex;
+  border-radius: 20px 0;
+}
+/* Nosotros*/
+.contenedor-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen-nosotros {
+  width: 80%;
+  height: 50%; 
+  margin-left: auto;
+  margin-right: auto;   
+}
+.texto-nosotros {
+    font-size: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  text-align: center;
+}
+/*Formulario de contacto*/
+.formulario-contacto {
+    padding: 0px 5px;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.438);
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+input, textarea{
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    background-color: rgb(155, 155, 155);
+    border: 2px solid rgba(255, 0, 0, 0.438);
+    outline: none;
+}
 }

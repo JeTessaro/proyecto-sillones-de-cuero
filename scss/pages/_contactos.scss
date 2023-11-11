@@ -1,14 +1,32 @@
 /* Contacto */
-
 main h1 {
+    font-size: 20px;
     text-align: center;
 }
-
 .formulario-contacto {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.438);
+    border-radius: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
 }
-
-.texto-contacto {
-    font-size: 30px;
+label{
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    flex-direction: column;
+    text-align: center;
+}
+input, textarea{
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    background-color: rgb(155, 155, 155);
+    border: 2px solid rgba(255, 0, 0, 0.438);
+    outline: none;
 }
